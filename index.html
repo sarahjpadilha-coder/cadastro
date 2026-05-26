@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="stayle.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro de usuário</h1>
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+
+    <br>
+    <br>
+
+     <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+    
+    <br>
+    <br>
+
+    <label>Sexo:</label>
+    <input type="radio" id="masculino" name="sexo" value="masculino">
+    <label for="masculino">Masculino</label>
+
+    <input type="radio" id="feminino" name="sexo" value="feminino">
+    <label for="feminino">Feminino</label>
+
+
+    <br>
+    <br>
+
+    <form action="/seu-destino-de-cadastro" method="POST">
+        <label for="email-cadastro">Digite seu e-mail:</label><br>
+        <input type="email" id="email-cadastro" name="email" placeholder="seu-email@exemplo.com" required>
+    </form>
+
+    <br>
+    <br>
+
+    <label for="data-nascimento">Data de Nascimento:</label>
+    <input type="date" id="data-nascimento" name="data-nascimento">
+
+    <br>
+    <br>
+    
+    <button class="botao-enviar">Enviar</button>
+
+</body>
+</html>

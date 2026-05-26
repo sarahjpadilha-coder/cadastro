@@ -1,0 +1,14 @@
+.botao-enviar{
+    background-color: rgb(86, 0, 0);
+    color: azure;
+    border-radius: 102px rgb(0, 0, 0);
+    align-items: center;
+}
+
+h1{
+    color: rgb(95, 1, 1);
+}
+
+body{
+    background-color: rgb(212, 158, 158);
+}
